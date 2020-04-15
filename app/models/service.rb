@@ -21,7 +21,6 @@ class Service < ApplicationRecord
       ["Household maintenance", "financial"],
       ["Petcare and dog walking", "entertainment"],
       ["Personal care", "prescriptions"],
-      ["Wellbeing", "wellbeing"]
     ]
   end
 
