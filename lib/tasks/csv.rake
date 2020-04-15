@@ -19,23 +19,21 @@ task :csv => :environment do
             categories.push("food")
         end
         if row[3] && row[3].downcase.strip == "yes"
-            categories.push("pets")
+            categories.push("meds")
         end
         if row[4] && row[4].downcase.strip == "yes"
             categories.push("social")
         end
         if row[5] && row[5].downcase.strip == "yes"
-            categories.push("financial")
+            categories.push("house")
         end
         if row[6] && row[6].downcase.strip == "yes"
-            categories.push("entertainment")
+            categories.push("pets")
         end
         if row[7] && row[7].downcase.strip == "yes"
-            categories.push("prescriptions")
+            categories.push("care")
         end
-        if row[8] && row[8].downcase.strip == "yes"
-            categories.push("wellbeing")
-        end
+
         service.category = categories
 
         service.url = row[10]

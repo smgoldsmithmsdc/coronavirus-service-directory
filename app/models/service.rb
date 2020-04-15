@@ -16,11 +16,11 @@ class Service < ApplicationRecord
   def self.categories
     [
       ["Shopping and groceries", "food"],
-      ["Medicine and prescriptions", "pets"],
+      ["Medicine and prescriptions", "meds"],
       ["Loneliness and isolation", "social"],
-      ["Household maintenance", "financial"],
-      ["Petcare and dog walking", "entertainment"],
-      ["Personal care", "prescriptions"],
+      ["Household maintenance", "house"],
+      ["Petcare and dog walking", "pets"],
+      ["Personal care", "care"],
     ]
   end
 
